@@ -86,7 +86,7 @@ li:hover{
 
 .apresentacao{
     box-shadow: 0 0px 8px -1px gray;
-    background: url("/_imagens/testebct.jpg");
+    background: url("testebct.jpg");
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -434,7 +434,7 @@ h4{
 }
 
 #modal{
-    background-image: url(/_imagens/ecomercepcmobilegrande.png);
+    background-image: url(ecomercepcmobilegrande.png);
     position: fixed;
     width: 910px;
     height: 469px;
@@ -459,7 +459,7 @@ h4{
   
 
 #modal2{
-    background-image: url(/_imagens/tiagobarberpccelulargrande.png);
+    background-image: url(tiagobarberpccelulargrande.png);
     position: fixed;
     width: 909px;
     height: 467px;
@@ -474,7 +474,7 @@ h4{
 }
 
 #modal3{
-    background-image: url(/_imagens/uxunicorniomobilecelularptbrgrande.png);
+    background-image: url(uxunicorniomobilecelularptbrgrande.png);
     position: fixed;
     width: 909px;
     height: 467px;
@@ -504,7 +504,7 @@ h4{
 }
 
 #modal5{
-    background-image: url(/_imagens/LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6grande.png);
+    background-image: url(LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6grande.png);
     position: fixed;
     width: 909px;
     height: 467px;
@@ -603,7 +603,7 @@ h4{
     background-repeat:no-repeat;
 background-size:contain;
 background-position:center;
-    background: url(/_imagens/sobremimbackground.png);
+    background: url(sobremimbackground.png);
     
 }
 
@@ -639,7 +639,7 @@ button:hover{
 }
 
 .servicossection{
-    background: url(/_imagens/backgroundcorte4gradient.png);
+    background: url(backgroundcorte4gradient.png);
     width: 100%;
     height: 800px;
     min-height: max-content;
@@ -745,7 +745,7 @@ footer{
 
 
 .orçamentobox{
-    background-image: url(/_imagens/ondasroxasHD2.png);
+    background-image: url(ondasroxasHD2.png);
     background-repeat: no-repeat;
    color: white;
    height: 1000px;
@@ -925,7 +925,7 @@ h1.second{
 }
 
     #modal{
-        background-image: url(/_imagens/ecomercepcmobilegrande.png);
+        background-image: url(ecomercepcmobilegrande.png);
         position: fixed;
         width: 910px;
         height: 469px;
@@ -941,7 +941,7 @@ h1.second{
     }
 
     #modal2{
-        background-image: url(/_imagens/tiagobarberpccelulargrande.png);
+        background-image: url(tiagobarberpccelulargrande.png);
         width: 850px;
         height: 455px;
         top: 50%;
@@ -959,7 +959,7 @@ h1.second{
     top: 7%;
     left: 4%;
     background-size: 100%;
-    background-image: url(/_imagens/uxunicorniomobilecelularptbrgrande.png);
+    background-image: url(uxunicorniomobilecelularptbrgrande.png);
    
     
 }
@@ -1127,7 +1127,7 @@ h1.second{
 
 
 #modal2{
-    background-image: url(/_imagens/tiagobarberpccelulargrande.png);
+    background-image: url(tiagobarberpccelulargrande.png);
     width: 850px;
     height: 451px;
     top: 50%;
@@ -1159,7 +1159,7 @@ h1.second{
 
 .resumindo{
    
- background-image: url(/_imagens/sobremimbackgroundmobile.png);
+ background-image: url(sobremimbackgroundmobile.png);
 }
 
 .flexboxx{
@@ -1177,7 +1177,7 @@ h1.second{
 
     .servicossection{
         
-            background: url(/_imagens/backgroundcorte2mobile.png);
+            background: url(backgroundcorte2mobile.png);
             width: 100%;
             height: 1600px;
             background-size: ;
@@ -1214,7 +1214,7 @@ h1.second{
  }
 
     .vantagens{
-        background-image: url(/_imagens/ondasroxasHDmobile.png);
+        background-image: url(ondasroxasHDmobile.png);
         background-repeat: no-repeat;
        color: white;
        height: 1550px;
@@ -1246,7 +1246,7 @@ h1.second{
 
 .apresentacao{
        
-        background: url("/_imagens/testebctmobile.jpg");
+        background: url("testebctmobile.jpg");
         background-size: cover;
         background-color: rg;
     }
@@ -1407,7 +1407,7 @@ ul li:hover{
     top:50%;
     margin-left:-225px; 
     margin-top:-315px;
-    background-image: url(/_imagens/ecomercepcmobile2.png);
+    background-image: url(ecomercepcmobile2.png);
     border-radius: 5px;
     
 }
@@ -1420,7 +1420,7 @@ ul li:hover{
     top:50%;
     margin-left:-230px; 
     margin-top:-314px; 
-    background-image: url(/_imagens/tiagobarberpccelularpequeno.png);
+    background-image: url(tiagobarberpccelularpequeno.png);
    
     
     
@@ -1434,7 +1434,7 @@ ul li:hover{
     margin-left:-230px; 
     margin-top:-315px; 
    background-size: 100%;
-   background-image: url(/_imagens/uxunicorniomobilecelularptbr.png);
+   background-image: url(uxunicorniomobilecelularptbr.png);
    border-radius: 5px;
    
     
@@ -1462,7 +1462,7 @@ ul li:hover{
     margin-left:-228px; 
     margin-top:-290px;
     background-size: 100%;
-    background-image: url(/_imagens/LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6.png);
+    background-image: url(LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6.png);
   
   
     
@@ -1541,7 +1541,7 @@ section#resumo{
     }
 
     .resumindo{
-        background-image: url(/_imagens/sobremimbackgroundmobile.png);
+        background-image: url(sobremimbackgroundmobile.png);
         
        
     }
@@ -1553,7 +1553,7 @@ section#resumo{
 
   
     .servicossection{
-        background: url(/_imagens/backgroundcorte2mobile.png);
+        background: url(backgroundcorte2mobile.png);
         width: 100%;
         height: 1600px;
         background-size: ;
@@ -1565,7 +1565,7 @@ section#resumo{
 
 
     .vantagens{
-        background-image: url(/_imagens/ondasroxasHDmobile.png);
+        background-image: url(ondasroxasHDmobile.png);
         background-repeat: no-repeat;
        color: white;
        height: 1550px;
@@ -1626,7 +1626,7 @@ section#resumo{
 
 
     .resumindo{
-        background-image: url(/_imagens/sobremimbackgroundmobile3.png);
+        background-image: url(sobremimbackgroundmobile3.png);
     }
 
   .flexboxx{
@@ -1703,7 +1703,7 @@ section#resumo{
     left:5%;
     top:7%;
     margin: 0 auto;
-    background-image: url(/_imagens/ecomercepcmobile2.png);
+    background-image: url(ecomercepcmobile2.png);
     border-radius: 5px;
     
 }
@@ -1716,7 +1716,7 @@ section#resumo{
     margin: 0 auto;
     left:2%;
     top:8%;
-    background-image: url(/_imagens/tiagobarberpccelularpequenomenor.png);
+    background-image: url(tiagobarberpccelularpequenomenor.png);
    
     
     
@@ -1730,7 +1730,7 @@ section#resumo{
     margin: 0 auto;
     left:2%;
     top:8%;
-   background-image: url(/_imagens/uxunicorniomobilecelularptbr.png);
+   background-image: url(uxunicorniomobilecelularptbr.png);
    border-radius: 5px;
    
     
@@ -1757,7 +1757,7 @@ section#resumo{
     margin: 0 auto;
     left:2%;
     top:8%;
-    background-image: url(/_imagens/LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6.png);
+    background-image: url(LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6.png);
   
   
     
