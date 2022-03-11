@@ -1,0 +1,1906 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+.resumindo img{
+    position: absolute;
+    margin-left: 550px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+body{
+    font-family: "Poppins";
+    width: 100%;;
+    height: 100%;
+    font-size: 19px;
+    color: #343434;
+    background-color: white;
+ ;
+    
+    
+}
+
+nav{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 1px 8px gainsboro;
+}
+
+ul{
+   text-align: right;
+   height: 80px;
+   margin-top: 0px;
+   margin-right: 58px;
+   
+
+   
+   
+}
+
+li{
+    display: inline-block;
+    margin-left: 18px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: auto;
+    margin-top: 27px;
+    color: rgb(48, 47, 47);
+    cursor: pointer;
+    
+}
+
+li:hover{
+    color: rgb(173, 0, 241);
+    border-bottom: rgb(173, 0, 241) 5px solid;
+    transition: 0.1s;
+}
+
+
+
+ #li6:hover{
+    color: rgb(0, 241, 60);
+    border-bottom: none;
+    transition: 0.1s;
+}
+
+
+.apresentacao{
+    box-shadow: 0 0px 8px -1px gray;
+    background: url("/_imagens/testebct.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+    
+    
+
+}
+
+h2 .port{
+    margin-top: -45px;
+    font-size: 8vw;
+    
+    
+}
+
+
+.portfolio{
+    width: 100%;
+    height: 850px;
+    
+
+}
+
+
+
+.portfolio h2{
+    font-size: 50px;
+    color: black;
+    padding-top: 150px;
+    margin-left: 2.5%;
+   
+    
+}
+
+
+.projects{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-gap: 100px;
+    justify-content: center;
+    
+    
+}
+
+.project_description{
+    height: 100px;
+    max-width: 92.3%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -10px;
+    padding: 15px;
+    white-space: normal;
+    text-align: left;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    
+}
+
+
+
+.projects img{
+    width: 450px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+    
+}
+
+
+
+.projects img:hover{
+    filter: brightness(60%);
+    transition: 0.2s;
+}
+
+
+.project1, .project2, .project3, .project5, .project6 {
+    box-shadow: 1px 1px 18px rgb(124, 124, 124);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    
+}
+
+.project4{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.sobremim{
+    font-size: 28px;
+    color: #343434;
+    position: absolute;
+    top: 70px;
+    padding-top: 150px;
+    padding-left: 50px;
+    font-weight: 500;
+    text-align: left;
+    font-size: "Poppins";
+ 
+
+}
+
+
+
+.fa-rocket{
+  vertical-align: center;
+ font-size: 25px;
+ text-align: center;
+ margin-left: 8px;
+}
+
+.comece{
+    
+    margin-top: 50px;
+    padding: 15px 5px 15px 5px;
+    cursor: pointer;
+    background-color: rgb(173, 0, 241);
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 25px;
+    font-family: "Font Awesome" sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 0px;
+    background: rgb(173, 0, 241);
+    width: 330px;
+    overflow: hidden;
+    
+}
+
+
+
+
+.comecar{
+  
+    margin-top: 50px;
+    padding: 15px 5px 15px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 25px;
+    font-family: "Font Awesome" sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 0px;
+    width: 330px;
+    animation: letsgoanimation;
+    animation-delay: forwards;
+    
+}
+
+
+
+.semtempo{
+justify-content: left;
+color: #343434;
+
+}
+
+.semtempo h2{
+    text-align: center;
+   color: #343434
+}
+
+.semtempodescrição{
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    vertical-align: middle;
+    line-height: 30px;
+    
+}
+
+.semtempodescrição p{
+    margin-right: 30px;
+}
+
+.semtempodescrição img{
+    width: 25vw;
+ 
+    
+}
+
+
+
+
+
+
+.vantagens{
+ background-image: url(/_imagens/ondasroxasHD2.png);
+ background-repeat: no-repeat;
+color: white;
+height: 1000px;
+width: 100%;
+min-height: max-content;
+background-size: cover;
+
+
+
+
+}
+
+.vantagens h2{
+    color: white;
+
+}
+
+.vantagensbox{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-left: -65px;
+    
+}
+
+.vantagem{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #343434;
+    box-shadow: rgb(142, 5, 196) 19px 19px 9px;
+   
+    
+}
+
+
+.vantagem svg{
+    margin-top: 15px;
+   
+    
+}
+
+.vantagem .svg2{
+    margin-top: 5px;
+}
+
+.vantagem .h32{
+    margin-top: 5px;
+}
+
+.vantagem p{
+    font-size: 15px;
+    
+}
+
+.vantagem h3{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #343434;
+}
+
+
+
+.sobremim p{
+font-weight: 500;
+
+
+}
+
+
+
+h1{
+    text-align: left;
+}
+
+#iconmenu{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+b{
+    color: rgb(173, 0, 241);
+}
+
+h4{
+ position: absolute;
+ margin-top: -200px;
+ margin-left: 80px;   
+ color: white;
+ font-size: 25px;
+ background: rgb(173, 0, 241);
+ display: none;
+ cursor: pointer;
+ border-radius: 2px;
+ padding: 5px;
+ 
+}
+
+
+.project1{
+    text-align: center;
+}
+
+
+@-webkit-keyframes animaçao {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 0%;  }
+}
+
+@-webkit-keyframes animaçaotrajano {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 18.6%;  }
+}
+
+@-webkit-keyframes letsgoanimation {
+    from { background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,18,241,1) 0%, 
+        rgba(184,0,255,1) 100%, rgba(184,0,255,1) 100%); padding-right: 130px; padding-left: 0px;}
+  to   { background-color: rgb(132, 216, 6); padding-left: 0px; }
+}
+
+@-webkit-keyframes letsgoanimation2 {
+    from {background-color: rgb(132, 216, 6);; padding-left: 100px; padding-right: 0;}
+  to  { background-color:rgb(173, 0, 241) ; }
+}
+
+@-webkit-keyframes orçamentoanimation2 {
+    from {background-color: rgb(132, 216, 6);; padding-left: 50px; padding-right: 0;}
+  to  { background-color: rgb(132, 216, 6); }
+}
+
+#modal{
+    background-image: url(/_imagens/ecomercepcmobilegrande.png);
+    position: fixed;
+    width: 910px;
+    height: 469px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-left: -460px ;
+    margin-top: -240px;
+    visibility: hidden;
+    animation-duration: 1.5s; 
+    
+}
+
+
+
+@keyframes modalanimation {
+    from {transform: scale(0.8)}
+    to {transform: scale(1.0);}
+  }
+
+  
+
+#modal2{
+    background-image: url(/_imagens/tiagobarberpccelulargrande.png);
+    position: fixed;
+    width: 909px;
+    height: 467px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    left: 15%;
+    top: 15%;
+    visibility: hidden;
+    background-size: 100%;
+    border-radius: 8px;
+    
+}
+
+#modal3{
+    background-image: url(/_imagens/uxunicorniomobilecelularptbrgrande.png);
+    position: fixed;
+    width: 909px;
+    height: 467px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    left: 15%;
+    top: 15%;
+    visibility: hidden;
+    background-size: 100%;
+    
+    
+    
+}
+
+#modal4{
+    background-image: url(/_imagens/loginscreengalaxyfull.png);
+    position: fixed;
+    width: 1200px;
+    height: 650px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    left: 3%;
+    top: 3%;
+    visibility: hidden;
+    
+   
+}
+
+#modal5{
+    background-image: url(/_imagens/LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6grande.png);
+    position: fixed;
+    width: 909px;
+    height: 467px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-left: -460px ;
+    margin-top: -240px;
+    visibility: hidden;
+    background-size: 100%;
+    border-radius: 5px;
+    
+}
+
+#modal6{
+    background-image: url(/_imagens/googleglassfull.png);
+    position: fixed;
+    width: 1250px;
+    height: 650px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    left: 1.5%;
+    top: 3%;
+    visibility: hidden;
+   
+}
+
+.fa-times{
+    color: rgb(173, 0, 241);
+    display: flex;
+    float: right;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#bg{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(0,0,0,0.80);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    left: 0%;
+    top: 0%;
+    visibility: hidden;
+}
+
+.profilepic{
+    
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    
+   
+    
+}
+
+
+.resumindo img{
+    float: right;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+
+#sobremimh2{
+    color: rgb(173, 0, 241);
+    font-size: 75px;
+    font-weight: 400;
+}
+
+#sobremimh22{
+    margin-top: -235px;
+    color: rgb(132, 216, 6);
+    font-weight: 900;
+    font-size: 75px;
+    
+    
+}
+
+
+.flexboxx{
+    width: 50%;
+    margin-left: 15px;
+    font-size: 1.5vw;
+ 
+  
+   
+   
+}
+
+.resumindo{
+    background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+    background: url(/_imagens/sobremimbackground.png);
+    
+}
+
+.resumindo h2{
+    color: #343434;
+    text-align: left;
+    margin-top: -120px;
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.resumindo p{
+    margin-left: 3%;
+    text-align: left;
+    margin-top: -25px;
+    
+    
+    
+}
+
+button:hover{
+    
+}
+
+.fa-file-download{
+ font-family: "Font Awesome" sans-serif;
+ font-size: 35px;
+ margin-right: 10px;
+  
+  
+}
+
+.servicossection{
+    background: url(/_imagens/backgroundcorte4gradient.png);
+    width: 100%;
+    height: 800px;
+    min-height: max-content;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+#servicosh2{
+   
+    color: white;
+}
+
+.servicos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    margin: 0 auto;
+    grid-gap: 100px;
+    font-family: "Font Awesome" sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 75
+    x;
+}
+
+.servicos p{
+    
+    font-size: 20px;
+}
+
+
+.servicos h3{
+    
+    margin-top: 15px;
+}
+
+
+
+.contato{
+  width: 100%;
+}
+
+.contato h2{
+    text-align: center;
+  }
+
+
+.LOCALIZACAO{
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  padding-top: 50px;
+  background-color: white;
+  font-size: 15px;
+  box-shadow: 1px 1px 10px gainsboro;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.LOCALIZACAO:hover{
+    box-shadow: 1px 1px 10px rgb(173, 0, 241);
+    transition: 0.5s;
+    color: rgb(173, 0, 241);;
+}
+
+
+
+
+.boxcontato{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  justify-content: center;
+  grid-gap: 50px;
+  margin-top: 80px;
+  
+}
+
+
+footer{
+    background-color:black;
+    width: 100%;
+    height: 60px;
+    box-shadow: 1px 1px 8px gainsboro;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family:Arial, Helvetica;
+    line-height: 3;
+    
+}
+
+#logo{
+  position: absolute;
+  padding-top: 22px;
+  margin-left: 5%;
+  ;
+}
+
+
+.orçamentobox{
+    background-image: url(/_imagens/ondasroxasHD2.png);
+    background-repeat: no-repeat;
+   color: white;
+   height: 1000px;
+   width: 100%;
+   min-height: max-content;
+   background-size: cover; 
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.orçamentobox img{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+#orçamentoh2{
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.orçamentobutton{
+    margin-top: 50px;
+    padding: 15px 5px 15px 5px;
+    cursor: pointer;
+    background-color: rgb(141, 235, 0);
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 25px;
+    font-family: "Font Awesome" sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 0px;
+    width: 330px;
+  
+}
+
+.orçamentobuttonINICIO{
+   
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    background-color: rgb(173, 0, 241);
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    font-family: "Font Awesome" sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 0px;
+    width: 220px;
+    margin-top: 5px;
+    margin-right: 50px;
+  
+}
+
+.orçamentobuttonINICIO:hover{
+    background-color: rgb(123, 201, 5);
+  
+}
+
+.redessociaissobremim{
+   margin-left: 3%;
+   margin-top: 8px;
+   cursor: pointer;
+   
+   
+}
+
+
+
+@media (min-width: 1700px){
+    
+    @-webkit-keyframes animaçaotrajano {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 210px;  }
+}
+
+
+  
+.sobremim{
+    margin-left: -10px;
+}
+
+
+
+.sobremim p:nth-child(5){
+ top:250px;
+ font-size: 18px;
+}
+
+.sobremim p:nth-child(4){
+ top:210px;
+ font-size: 22px;
+
+
+}
+
+h1.second{
+    left:210px;
+}
+
+
+}
+
+@media (max-width: 1250px){
+
+
+    #logo{
+        margin-left: 5px;
+    }
+
+    .projects img{
+        width: 400px;
+        
+        
+    }
+    
+    
+    @-webkit-keyframes animaçaotrajano {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 225px;  }
+}
+
+
+
+
+
+.flexboxx{
+    width: 40%;
+    margin-left: 15px;
+    
+}
+
+
+
+.resumindo{
+    
+   
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+ 
+}
+
+
+    .projects{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:400px 400px;
+    grid-gap: 50px;
+    
+
+}
+.servicos{
+    grid-gap: 150px;
+    justify-content: left;
+
+}
+
+.servicos p{
+    font-size: 15px;
+}
+
+.website{
+    margin-left: 12%;
+}
+
+.lp{
+    margin-left: 16%;
+    
+}
+
+    #modal{
+        background-image: url(/_imagens/ecomercepcmobilegrande.png);
+        position: fixed;
+        width: 910px;
+        height: 469px;
+        z-index: 2;
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        margin-left: -460px ;
+        margin-top: -240px;
+        visibility: hidden;
+        animation-duration: 1.5s; 
+        
+    }
+
+    #modal2{
+        background-image: url(/_imagens/tiagobarberpccelulargrande.png);
+        width: 850px;
+        height: 455px;
+        top: 50%;
+        left: 54%;
+        margin-left: -465px;
+        margin-top: -150px;
+        background-size: 100%;
+        border-radius: 8px;
+        
+    }
+
+#modal3{
+    width: 90%;
+    height: 600px;
+    top: 7%;
+    left: 4%;
+    background-size: 100%;
+    background-image: url(/_imagens/uxunicorniomobilecelularptbrgrande.png);
+   
+    
+}
+
+
+.servicos{
+       margin-left: -25px;
+       width: 400px;
+       grid-gap: 5px;
+       
+   } 
+    
+    .website{
+    width: 400px;
+
+
+}
+
+.lp{
+    width: 350px;
+   
+}   
+
+
+}
+
+@media (max-width: 1070px){
+
+
+    
+    #logo{
+        margin-left: 15px;
+    }
+
+    
+    #modal{
+    
+        width: 810px;
+        height: 469px;
+        left: 56%;
+        top: 50%;
+        background-size: 100%;
+        
+    }
+    
+
+    .projects{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-gap: 30px;
+        justify-content: center;
+        
+        
+    }
+
+
+    ul{
+        width: 40%;
+        height: 100%;
+        background-color: rgb(173, 0, 241);
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        transition: 0.5s;
+        box-shadow: 0px 4px 5px rgb(61, 61, 61);
+        text-align: center;
+    
+    
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    ul li{
+        display: flex;
+        flex-direction: column;
+        border-bottom: rgb(41, 41, 41) 1px dashed;
+        color: white;
+        margin-left: -8px;
+    
+        
+    }
+    
+    ul li:hover{
+        border-bottom: rgb(41, 41, 41) 1px dotted;
+        color: white;
+    }
+
+    #li6{
+        display: none;
+    }
+    
+   
+    
+    #check{
+        display: none;
+    }
+    
+    #check:checked ~ ul{
+      left:0;
+    }
+    
+    #iconmenu{
+        display: block;
+        cursor: pointer;
+        padding-top: 24px;
+        padding-right: 10px;
+        width: 32px;
+        height: 32px;
+        float: right;
+    }
+
+
+@media (max-width: 950px){
+
+
+    .projects{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 400px;
+        grid-gap: 50px;
+        justify-content: center;
+        
+        
+    }
+
+   
+
+    .profilepic{
+    
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+        
+       
+        
+    }   
+
+
+
+.servicos{
+       margin-left: -25px;
+       width: 400px;
+       grid-gap: 5px;
+       
+       
+   } 
+    
+    .website{
+    width: 350px;
+    
+   
+
+
+}
+
+.lp{
+    width: 350px;
+   
+}   
+
+
+
+#modal2{
+    background-image: url(/_imagens/tiagobarberpccelulargrande.png);
+    width: 850px;
+    height: 451px;
+    top: 50%;
+    left: 54%;
+    margin-left: -465px;
+    margin-top: -150px;
+    background-size: 100%;
+    border-radius: 8px;
+    
+}
+
+
+}
+
+
+@media (max-width: 850px){
+
+
+.redessociaissobremim i{
+    font-size: 21px;
+}
+
+
+ body{
+     overflow-x: hidden;
+ }   
+
+
+
+.resumindo{
+   
+ background-image: url(/_imagens/sobremimbackgroundmobile.png);
+}
+
+.flexboxx{
+  width: 60%;
+  font-size: 2.5vw;
+}
+
+#sobremimh2{
+    color: rgb(173, 0, 241);
+    font-size: 75px;
+    font-weight: 400;
+    padding-top: 85px;
+}
+
+
+    .servicossection{
+        
+            background: url(/_imagens/backgroundcorte2mobile.png);
+            width: 100%;
+            height: 1600px;
+            background-size: ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 50px;
+            color: white;
+        
+    }
+
+    .semtempodescrição{
+        width: 90%;
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        line-height: 30px;
+        margin-left: 75px;
+        justify-content: center;
+        font-size: 16px;
+        align-items: center;
+        
+    }
+
+    .semtempo h2{
+           margin-left: -5px;
+    }
+
+    .semtempodescrição img{
+        margin-left: 15vw;
+        margin-top: 25px;
+        width: 50%;
+
+ }
+
+    .vantagens{
+        background-image: url(/_imagens/ondasroxasHDmobile.png);
+        background-repeat: no-repeat;
+       color: white;
+       height: 1550px;
+       width: 100%;
+       
+       
+       }
+
+    .vantagensbox{
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: center;
+        gap: 80px;
+        margin-top: 50px;
+        margin-left: -65px;
+        
+    }
+
+    .vantagem{
+        width: 250px;
+        height: 300px;
+        white-space: normal;
+    }
+
+    .vantagem p{
+      margin-left: 0px;
+    }
+
+
+.apresentacao{
+       
+        background: url("/_imagens/testebctmobile.jpg");
+        background-size: cover;
+        background-color: rg;
+    }
+
+
+    
+    .redessociais{
+    
+        animation: animaçao 3s;
+    top: 360px;
+  
+}
+
+
+.resumindo img{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    box-shadow: 1px 1px 5px gray;
+}
+
+ 
+   .servicos{
+       margin-left: 0px;
+       width: 400px;
+   } 
+    
+    
+    
+    .website{
+    width: 400px;
+    
+    
+}
+
+.lp{
+    width: 400px;
+   
+}   
+    
+    
+    
+    @-webkit-keyframes animaçaotrajano {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 225px;  }
+}
+
+.sobremim{
+    
+    text-align: center;
+        width: 85%;
+    
+}
+
+.sobremim h1{
+text-align: center;
+}
+
+.sobremim p{
+    font-size: 25px;
+}
+
+.sobremim button{
+    margin-left: -50px;
+}
+
+
+.servicos{
+    margin-left: 3%;
+    font-size: 17px;
+    
+}
+
+
+.boxcontato{
+  display: grid;
+  grid-template-columns: 250px;
+}
+    
+
+p{
+    margin-left: -50px;
+}
+
+h1{
+    
+    margin-right: 60px;
+    font-size: 52px;
+
+}
+
+ul{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(173, 0, 241);
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    transition: 0.5s;
+    box-shadow: 0px 4px 5px rgb(61, 61, 61);
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    border-bottom: rgb(41, 41, 41) 1px dotted;
+    color: white;
+    margin-left: -8px;
+
+    
+}
+
+ul li:hover{
+    border-bottom: rgb(41, 41, 41) 1px dotted;
+    color: white;
+}
+
+
+
+#check{
+    display: none;
+}
+
+#check:checked ~ ul{
+  left:0;
+}
+
+#iconmenu{
+    display: block;
+    cursor: pointer;
+    padding-top: 24px;
+    padding-right: 10px;
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
+.projects{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:400px;
+    grid-gap: 50px;
+    justify-content: center;
+}
+
+#modal{
+    
+    width: 455px;
+    height: 630px;
+    background-size: 100%;
+    left:50%;
+    top:50%;
+    margin-left:-225px; 
+    margin-top:-315px;
+    background-image: url(/_imagens/ecomercepcmobile2.png);
+    border-radius: 5px;
+    
+}
+
+#modal2{
+    
+    width: 455px;
+    height: 625px;
+    left:50%;
+    top:50%;
+    margin-left:-230px; 
+    margin-top:-314px; 
+    background-image: url(/_imagens/tiagobarberpccelularpequeno.png);
+   
+    
+    
+}
+
+#modal3{
+    width: 458px;
+    height: 631px;
+    left:50%;
+    top:50%;
+    margin-left:-230px; 
+    margin-top:-315px; 
+   background-size: 100%;
+   background-image: url(/_imagens/uxunicorniomobilecelularptbr.png);
+   border-radius: 5px;
+   
+    
+}
+
+#modal4{
+    width: 411px;
+    height: 307px;
+    left: 50%;
+    top: 50%;
+    margin-left:-205px; 
+    margin-top:-153px; 
+    background-size: 100%;
+    background-image: url(/_imagens/loginscreengalaxymobilehd.png);
+    border-radius: 5px;
+   
+    
+}
+
+#modal5{
+    width: 455px;
+    height: 587px;
+    left:50%;
+    top:50%;
+    margin-left:-228px; 
+    margin-top:-290px;
+    background-size: 100%;
+    background-image: url(/_imagens/LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6.png);
+  
+  
+    
+    
+   
+    
+}
+
+#modal6{
+    width: 380px;
+    height: 514px;
+    left:50%;
+    top:50%;
+    margin-left:-190px; 
+    margin-top:-250px;
+    background-size: 100%;
+    background-image: url(/_imagens/googleglassmobile.png);
+    border-radius: 5px;
+    
+   
+    
+}
+section#resumo{
+    margin-left: -15px;
+    
+}
+.servicos{
+    grid-template-columns: 150px;
+    justify-content: left;
+    grid-gap: 50px;
+
+    
+}
+
+.servicos p{
+    margin-left: 1px;
+}
+
+.website{
+    margin-left: 1px;
+
+}
+
+
+.project_description p, h3{
+    margin-left: 0px;
+}
+
+
+#port{
+    font-size: 6vw;
+}
+
+#semtempoh2{
+    font-size: 6vw;
+}
+
+ #contatoh2{
+    font-size: 6vw;
+}
+
+#sobremimh2{
+    font-size: 6vw;
+    margin-bottom: 65px;
+}
+
+}
+
+
+@media (max-width: 670px){
+
+
+
+    #orçamentoh2{
+        font-size: 27px;
+    }
+
+    .resumindo{
+        background-image: url(/_imagens/sobremimbackgroundmobile.png);
+        
+       
+    }
+
+    .flexboxx{
+        width: 70%;
+        
+    }
+
+  
+    .servicossection{
+        background: url(/_imagens/backgroundcorte2mobile.png);
+        width: 100%;
+        height: 1600px;
+        background-size: ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        color: white;
+    }
+
+
+    .vantagens{
+        background-image: url(/_imagens/ondasroxasHDmobile.png);
+        background-repeat: no-repeat;
+       color: white;
+       height: 1550px;
+       width: 100%;
+       
+       
+       }
+
+    .vantagensbox{
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: center;
+        gap: 80px;
+        margin-top: 50px;
+        margin-left: -65px;
+    }
+
+  
+    #sobremimh1{
+        font-size: 45px;
+        text-align: center;
+        margin-top: -75px;
+        
+        
+    }
+    
+    .sobremim p{
+        font-size: 25px;
+    }
+
+
+
+.resumindo p{
+    
+    font-size: 2.7vw;
+    
+     
+}
+
+.resumindo img{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.sobre_mim{
+    width: 90%;
+    min-width: 300px;
+    margin-left: 5px;
+    margin-right: 40px;
+    
+ }
+
+}
+
+@media (max-width: 470px){
+
+
+    .resumindo{
+        background-image: url(/_imagens/sobremimbackgroundmobile3.png);
+    }
+
+  .flexboxx{
+   font-size: 3vw;
+  }
+
+
+
+    .resumindo p{
+        
+        text-align: left;
+       
+    }
+
+    #semtempoh2{
+        font-size: px;
+    }
+
+    .semtempodescrição{
+        width: 85%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-right: -15px;
+         
+    }
+
+
+    .sobremim{
+         
+        text-align: center;
+        width: 85%;
+        
+        
+    }
+    
+    .sobremim h1{
+        font-size: 35px;
+        text-align: center;
+        
+        
+        
+    }
+    
+    .sobremim p{
+        font-size: calc(0.5em + 1vw);
+        
+    }
+
+    @-webkit-keyframes animaçaoredes {
+    from { opacity: 0;  }
+  to   { opacity: 1; }
+}
+
+
+
+
+
+    
+    .redessociais{
+    -webkit-animation: animaçaoredes 5s ;
+    -moz-animation: animaçaoredes 5s ; 
+    -o-animation: animaçaoredes 5s ; 
+    animation: animaçaoredes 5s ;
+    font-size: 25px;
+    animation: animaçao 3s;
+}
+
+#modal{
+    
+    width: 90%;
+    height: 630px;
+    background-size: 100%;
+    left:5%;
+    top:7%;
+    margin: 0 auto;
+    background-image: url(/_imagens/ecomercepcmobile2.png);
+    border-radius: 5px;
+    
+}
+
+#modal2{
+    
+    width: 95%;
+    height: 90%;
+    background-size: 100%;
+    margin: 0 auto;
+    left:2%;
+    top:8%;
+    background-image: url(/_imagens/tiagobarberpccelularpequenomenor.png);
+   
+    
+    
+}
+
+#modal3{
+    
+    width: 95%;
+    height: 90%;
+    background-size: 100%;
+    margin: 0 auto;
+    left:2%;
+    top:8%;
+   background-image: url(/_imagens/uxunicorniomobilecelularptbr.png);
+   border-radius: 5px;
+   
+    
+}
+
+#modal4{
+    width: 95%;
+    height: 90%;
+    background-size: 100%;
+    margin: 0 auto;
+    left:2%;
+    top:8%;
+    background-image: url(/_imagens/loginscreengalaxymobilehd.png);
+    border-radius: 5px;
+   
+    
+}
+
+#modal5{
+  
+    width: 95%;
+    height: 90%;
+    background-size: 100%;
+    margin: 0 auto;
+    left:2%;
+    top:8%;
+    background-image: url(/_imagens/LAWYERPCMOBILEBORDADOPRETOmobilenewbranco6.png);
+  
+  
+    
+    
+   
+    
+}
+
+#modal6{
+    width: 95%;
+    height: 90%;
+    background-size: 100%;
+    margin: 0 auto;
+    left:2%;
+    top:8%;
+    background-image: url(/_imagens/googleglassmobile.png);
+    border-radius: 5px;
+    
+   
+    
+}
+
+    
+    
+    .portfolio{
+        position: relative;
+width:100%;
+height:200px;
+        
+    }
+    
+    
+    .servicos{
+       margin-left: 3%;
+       width: 380px;
+
+   } 
+
+   .website{
+    width: 380px;
+
+}
+
+.lp{
+    width: 380px;
+}
+
+
+    @-webkit-keyframes animaçaotrajano {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 210px;  }
+}
+
+
+.projects{
+   
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:350px;
+    grid-gap: 50px;
+    justify-content: center;
+    
+}
+    
+
+.projects img{
+    width: 350px;
+    
+}
+
+#sobremimh22{
+    font-size: 65px;
+}
+
+
+}
+
+@media (max-width: 395px){
+
+    #sobremimh22{
+        font-size: 55px;
+    }
+  
+
+    .semtempodescrição{
+        width: 85%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-right: -15px;
+        
+        
+        
+        
+    }
+
+    @-webkit-keyframes animaçaotrajano {
+    from { opacity: 0; left: -10%; }
+  to   { opacity: 1; left: 180px;  }
+}
+
+
+.sobremim h1{
+    font-size: 40px;
+}
+
+h1.first{
+margin-left: 25px;
+}
+
+h1.second{
+    left: 180px;
+    color: greenyellow;
+}
+
+
+
+
+
+.sobremim p:nth-child(1){
+ font-size: 21px;
+ margin-left: 25px;
+}
+
+.sobremim p:nth-child(4){
+ font-size: 14px;
+ top: 200px;
+ margin-left: 25px;
+
+}
+
+.sobremim p:nth-child(5){
+ 
+ top: 230px;
+ margin-left: 25px;
+
+
+
+}
+
+.redessociais{
+    margin-left: 25px;
+    
+}
+}
+}

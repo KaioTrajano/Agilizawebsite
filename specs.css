@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+div#cabecalhoo h1{
+    font-family:"Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: white;
+    border-bottom: solid 3px #FCEF4B;
+    display: block;
+    position: relative;
+    top: 200px;
+    left: 80px;
+    width: 355px;
+} 
+
+
+
+div#cabecalhoo{
+    background-image: url(../_imagens/ESPECS.jpg);
+    margin: -30px -20px -45px -8px;
+    width: 1500px;
+    height:  650px;
+    
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    transition: 1s;
+  
+}
+section#conteudo {
+   width: 1500px;
+   margin: auto;
+   
+    
+}
+
+section#conteudo img{
+   
+}
+iframe#iframespec {
+   
+    width: 500px;
+    height: 350px;
+    border: none;
+    
+
+    
+}
+
+nav#menu ul{
+    
+    margin-right: 250px;
+}
+
+section#interface{
+    margin-right: -100px;
+}
+
+footer{
+    
+    width: 1500px;
+    text-align: center;
+}
