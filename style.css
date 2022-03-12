@@ -88,7 +88,7 @@ li:hover{
 
 .apresentacao{
     box-shadow: 0 0px 8px -1px gray;
-    background: url(testebct.jpg");
+    background: url(testebct.jpg);
     background-size: cover;
     position: relative;
     height: 100vh;
