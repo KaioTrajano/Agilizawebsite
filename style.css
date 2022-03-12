@@ -88,7 +88,7 @@ li:hover{
 
 .apresentacao{
     box-shadow: 0 0px 8px -1px gray;
-    background: url("testebct.jpg");
+    background: url(testebct.jpg");
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -467,8 +467,10 @@ h4{
     height: 467px;
     z-index: 2;
     background-repeat: no-repeat;
-    left: 15%;
-    top: 15%;
+    left: 50%;
+    top: 50%;
+    margin-left: -460px ;
+    margin-top: -240px;
     visibility: hidden;
     background-size: 100%;
     border-radius: 8px;
@@ -482,8 +484,10 @@ h4{
     height: 467px;
     z-index: 2;
     background-repeat: no-repeat;
-    left: 15%;
-    top: 15%;
+    left: 50%;
+    top: 50%;
+    margin-left: -460px ;
+    margin-top: -240px;
     visibility: hidden;
     background-size: 100%;
     
@@ -492,7 +496,7 @@ h4{
 }
 
 #modal4{
-    background-image: url(loginscreengalaxyfull.png);
+    background-image: url(/_imagens/loginscreengalaxyfull.png);
     position: fixed;
     width: 1200px;
     height: 650px;
@@ -523,7 +527,7 @@ h4{
 }
 
 #modal6{
-    background-image: url(googleglassfull.png);
+    background-image: url(/_imagens/googleglassfull.png);
     position: fixed;
     width: 1250px;
     height: 650px;
@@ -725,6 +729,7 @@ button:hover{
 }
 
 
+
 footer{
     background-color:black;
     width: 100%;
@@ -759,6 +764,10 @@ footer{
    flex-direction: column;
 }
 
+.fa-whatsapp{
+    margin-right: 8px;
+}
+
 .orçamentobox img{
     width: 350px;
     height: 350px;
@@ -776,7 +785,7 @@ footer{
     padding: 15px 5px 15px 5px;
     cursor: pointer;
     background-color: rgb(141, 235, 0);
-    color: red;
+    color: white;
     font-weight: 700;
     border: none;
     font-size: 25px;
@@ -1198,6 +1207,12 @@ footer{
     font-size: 75px;
     font-weight: 400;
     padding-top: 85px;
+    
+    
+}
+
+#sobremimh1{
+    margin-right: 0px;
 }
 
 
@@ -1272,7 +1287,7 @@ footer{
 
 .apresentacao{
        
-        background: url("testebctmobile.jpg");
+        background: url(testebctmobile.jpg");
         background-size: cover;
         background-color: rg;
     }
@@ -1321,9 +1336,15 @@ footer{
 }
 
 .sobremim{
-    
+    font-size: 28px;
+    color: #343434;
+    position: absolute;
+    top: 70px;
+    padding-top: 150px;
+    padding-left: 0px;
     text-align: center;
-        width: 85%;
+    width: 100%;
+   ;
     
 }
 
@@ -1333,10 +1354,12 @@ text-align: center;
 
 .sobremim p{
     font-size: 25px;
+    margin-left: 0px;
+    margin-top: 15px;
 }
 
 .sobremim button{
-    margin-left: -50px;
+    margin-left: 0px;
 }
 
 
@@ -1474,7 +1497,7 @@ ul li:hover{
     margin-left:-205px; 
     margin-top:-153px; 
     background-size: 100%;
-    background-image: url(loginscreengalaxymobilehd.png);
+    background-image: url(/_imagens/loginscreengalaxymobilehd.png);
     border-radius: 5px;
    
     
@@ -1505,7 +1528,7 @@ ul li:hover{
     margin-left:-190px; 
     margin-top:-250px;
     background-size: 100%;
-    background-image: url(googleglassmobile.png);
+    background-image: url(/_imagens/googleglassmobile.png);
     border-radius: 5px;
     
    
@@ -1614,6 +1637,7 @@ section#resumo{
         font-size: 45px;
         text-align: center;
         margin-top: -75px;
+        margin-right: 0px;
         
         
     }
@@ -1681,13 +1705,21 @@ section#resumo{
     }
 
 
-    .sobremim{
-         
-        text-align: center;
-        width: 85%;
-        
-        
-    }
+        .sobremim{
+            font-size: 28px;
+            color: #343434;
+            position: absolute;
+            top: 70px;
+            padding-top: 150px;
+            padding-left: 0px;
+            font-weight: 500;
+            text-align: center;
+            width: 100%;
+            font-size: "Poppins";
+            
+        }
+
+       
     
     .sobremim h1{
         font-size: 35px;
@@ -1769,7 +1801,7 @@ section#resumo{
     margin: 0 auto;
     left:2%;
     top:8%;
-    background-image: url(loginscreengalaxymobilehd.png);
+    background-image: url(/_imagens/loginscreengalaxymobilehd.png);
     border-radius: 5px;
    
     
@@ -1799,7 +1831,7 @@ section#resumo{
     margin: 0 auto;
     left:2%;
     top:8%;
-    background-image: url(googleglassmobile.png);
+    background-image: url(/_imagens/googleglassmobile.png);
     border-radius: 5px;
     
    
