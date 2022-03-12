@@ -878,6 +878,14 @@ footer{
 
 @media (max-width: 1250px){
 
+    .resumindo{
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+ 
+}
 
     #logo{
         margin-left: 5px;
@@ -912,7 +920,7 @@ footer{
    
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
+    background-position:right;
  
 }
 
