@@ -822,11 +822,42 @@ footer{
 
 
 
-@media (min-width: 1700px){
+@media (min-width: 1400px){
+    
+   .vantagens{
+    height: 1200px;
+}
+
+
+    
+.servicossection{
+ height: 1250px;
+}
+
+
+
+#servicosh2{
+   padding-top: 350px;
+   
+}
+
+
+.resumindo{
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+    
+    
+}  
     
     @-webkit-keyframes animaçaotrajano {
     from { opacity: 0; left: -10%; }
   to   { opacity: 1; left: 210px;  }
+}
+
+
+
 }
 
 
