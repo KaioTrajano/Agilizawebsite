@@ -32,6 +32,12 @@ body{
     color: #343434;
     background-color: white;
     overflow-x: hidden;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;
     
  ;
     
@@ -1230,7 +1236,7 @@ footer{
     }
 
     .semtempodescrição{
-        width: 90%;
+        width: 80%;
         text-align: left;
         margin-top: 50px;
         margin-bottom: 50px;
