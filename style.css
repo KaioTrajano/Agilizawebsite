@@ -1122,8 +1122,8 @@ footer{
         cursor: pointer;
         padding-top: 24px;
         padding-right: 10px;
-        width: 32px;
-        height: 32px;
+        width: 42px;
+        height: 42px;
         float: right;
     }
 
@@ -1451,8 +1451,8 @@ ul li:hover{
     cursor: pointer;
     padding-top: 24px;
     padding-right: 10px;
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     float: right;
 }
 
