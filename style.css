@@ -1275,7 +1275,7 @@ footer{
         background-image: url(ondasroxasHDmobile.png);
         background-repeat: no-repeat;
        color: white;
-       height: 1550px;
+       height: 1750px;
        width: 100%;
        
        
@@ -1293,7 +1293,7 @@ footer{
 
     .vantagem{
         width: 250px;
-        height: 350px;
+        height: 300px;
         white-space: normal;
     }
 
@@ -1601,6 +1601,12 @@ section#resumo{
 @media (max-width: 670px){
 
 
+    .vantagens .vantagem:nth-child(-n+3){
+            width: 250px;
+            height: 350px;
+            white-space: normal;
+            
+        }
 
     #orçamentoh2{
         font-size: 27px;
