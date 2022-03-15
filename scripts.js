@@ -170,19 +170,9 @@ function aparecer6(){
 
 
 
-function sumirul(){
-    var ul12  = document.getElementsByTagName("ul")[0]
-    ul12.style.left = "-100%"
-    
-}
-
-
-
-
-
 function aparecerul(){
     
-    let ul12 = document.getElementsByTagName("ul")[0]
+    let ul12 = document.getElementsByTagName("ul")
     
     if(ul12.style.left == "-100%"){
     
