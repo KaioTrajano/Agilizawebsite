@@ -285,13 +285,15 @@ color: #343434;
 }
 
 .semtempodescrição{
-    width: 90%;
+   width: 80%;
     text-align: left;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     vertical-align: middle;
+    flex-direction: column;
+    align-items: center;
     line-height: 30px;
     
 }
@@ -301,7 +303,8 @@ color: #343434;
 }
 
 .semtempodescrição img{
-    width: 25vw;
+     width: 35vw;
+    margin-top: 80px;
  
     
 }
@@ -1246,11 +1249,12 @@ footer{
     }
 
    .semtempodescrição{
-        width: 80%;
+         width: 80%;
         text-align: left;
         margin-top: 50px;
         margin-bottom: 50px;
-        display: block;
+        display: flex;
+        flex-direction: column;
         line-height: 30px;
         margin-left: 75px;
         justify-content: center;
@@ -1265,9 +1269,9 @@ footer{
     }
 
     .semtempodescrição img{
-        margin-left: 15vw;
-        margin-top: 25px;
-        width: 50%;
+          width: 55vw;
+        margin-top: 80px;
+        margin-left: -15px;
 
  }
 
@@ -1719,13 +1723,19 @@ section#resumo{
         font-size: px;
     }
 
-    .semtempodescrição{
+   .semtempodescrição{
         width: 80%;
         text-align: left;
         margin-top: 50px;
         margin-right: -15px;
         font-size: 3.3vw;
          
+    }
+
+    .semtempodescrição img{
+        width: 65vw;
+        margin-left: -55px;
+
     }
 
 
