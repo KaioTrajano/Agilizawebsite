@@ -2010,6 +2010,14 @@ h1.second{
 }
 }
     
+@media (max-width: 350px){
+
+.comece{
+    width: 280px;
+}
+
+}    
+    
 @media (max-height: 580px){
 
 .apresentacao{
