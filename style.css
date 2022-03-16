@@ -1928,6 +1928,25 @@ height:200px;
 }
 
 @media (max-width: 395px){
+    
+     .projects{
+   
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-gap: 50px;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+        
+    
+    .projects img{
+        width: 300px;
+        
+    }
+      
 
     #sobremimh22{
         font-size: 55px;
