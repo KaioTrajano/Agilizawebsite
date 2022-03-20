@@ -439,8 +439,7 @@ h4{
 }
 
 @-webkit-keyframes letsgoanimation {
-    from { background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,18,241,1) 0%, 
-        rgba(184,0,255,1) 100%, rgba(184,0,255,1) 100%); padding-right: 130px; padding-left: 0px;}
+    from { background-color:rgba(184,0,255,1); background-color: rgb(132, 216, 6); padding-right: 130px; padding-left: 0px;}
   to   { background-color: rgb(132, 216, 6); padding-left: 0px; }
 }
 
